@@ -22,7 +22,7 @@ const students = [
 // Recupera i dati dello studente con id 2
 
 const secondId = students.filter((student) => {
-  return student.id === 2
+  return student.id === 2;
 })
 console.log(secondId);
 
